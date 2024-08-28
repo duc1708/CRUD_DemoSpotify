@@ -1,0 +1,139 @@
+body{
+    background-image: url("https://community.spotify.com/t5/image/serverpage/image-id/132330iC5021722BFC32895?v=v2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header{
+    margin-top: 100px;
+    display: inline-flex;
+    margin-left: 105px;
+}
+
+.header h4{
+    margin-right: 50px;
+    color: #fff;
+}
+
+.header h4:hover{
+    cursor: pointer;
+}
+
+input[type="text"] {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+#btnPrice{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    
+}
+.about{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.row{
+    width: 100%;
+    color: #fff;
+    
+}
+
+.row .col-sm-3{
+    background-color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 23%;
+    margin-left: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 240px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.row .col-sm-3 img{
+    width: 100%;
+}
+
+.custom-audio-player {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    width:240px;
+}
+
+.play-pause {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 35px;
+}
+
+.seek-bar {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form{
+    padding: 20px 20px 20px 20px;
+    color: aliceblue;
+    border: none;
+    width: 300px;
+    margin-left: 108px;
+    background-color: #221818;
+}
+
+#create{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+
+.delete-song {
+    width: 150px;
+    margin-left: 45px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: red;
+    border: none;
+}
+
+.infor-song{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+.top{
+    margin-top: 300px;
+}
